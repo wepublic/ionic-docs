@@ -1,0 +1,44 @@
+roles: admin, politician, user
+
+db: question, user
+
+list: categories, flags
+
+user:
+{
+	id: 
+	firstname: 
+	lastname: 
+	email: 
+	pw: 
+	role: {admin, politician, user}
+	image:
+}
+
+question:
+{
+	id: 
+	category: {categories}
+	creator: {user}
+	likeCount: 
+	dislikeCount: 
+	flags: {flags}
+}
+
+use cases:
+
+user:
+-create user
+-change pw
+-change email
+
+politician:
+-create/remove answer
+-get question list (answered, trending questions)
+
+user:
+-create/remove question
+-like answer/question
+-dislike answer/question
+-flag spam
+-get question list (liked, trending, created, category based questions)
