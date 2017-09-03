@@ -27,6 +27,8 @@ Um eine Frage stellen zu können, muss der User mindestens 10 Fragen bewertet ha
 Hier werden zufällig Fragen angezeigt, die der User noch nicht bewertet hat
 und die noch nicht beantwortet sind, bzw. an die Politiker weitergereicht wurden.
 
+Der User kann Fragen mit Tippen oder Wischen als gut oder schlecht bewerten.
+
 ## Offene Fragen
 Hier werden alle Fragen angezeigt, die der User positiv bewertet hat
 und die noch nicht beantwortet sind, bzw. an die Politiker weitergereicht wurden.
@@ -49,6 +51,9 @@ wenn der User nach unten scrollt. Das wiederum erfordert, dass die Fragen bereit
 Backend sortiert werden.
 
 Durch auswählen von #Tags kann die Liste der Fragen eingeschränkt werden.
+
+Der User kann Fragen mit Tippen oder Wischen als gut bewerten, auch wenn diese vorher
+von ihm als schlecht bewertet wurde.
 
 ## Info
 Hier wird zuerst die Übereinstimmung der Antwort-Bewertung mit den Parteien angezeigt.
